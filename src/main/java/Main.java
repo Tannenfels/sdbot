@@ -36,7 +36,7 @@ public class Main extends ListenerAdapter {
 
     public static void main(String[] args) throws LoginException {
         try {
-            String token = "NjIwOTEyMjMyNTk0NjY5NTg4.XXdsFg.lbqOYb2pEQIlNpllIGhGru5L5dw";
+            String token = "";
             JDA jda = new JDABuilder(token).addEventListeners(new Main()).build();
             jda.awaitReady();
         }catch (InterruptedException e){
